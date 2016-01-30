@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>THEATA</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" href="css/main.css" />
+        <style>
+        </style>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/three.min.js"></script>
+        <script type="text/javascript" src="js/thview.js"></script>
+        <script>
+        $(document).ready(function(){
+            var img = null;
+            var $image =  "images/20160129.jpg";
+            var $width = $("html").width();
+            var $height = $(".contents").height();
+            img = new ThView({
+                id:'image1',
+                file: $image,
+                width: $width,
+                height: $height,
+                zoom: 100,
+                firstview: 30
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <div id="main">
+            <div class="contents">
+            <div id="image1"></div>
+            </div>
+            <div class="footer">
+            </div>
+        </div>
+    </body>
+</html>
