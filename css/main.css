@@ -1,0 +1,104 @@
+body, html, #main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF6633;
+}
+
+#main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.contents {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    bottom: 80px;
+/*    margin: auto; */
+    width: 100%;
+    height: 640px;
+    background-color: #FFF;
+}
+.left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #FFFFFF;
+    background-image: url("1501_haikei.jpg");
+    width: 50%;
+    height: 100%;
+}
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.left_img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #FF6633;
+}
+.footer_img {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+.right_title {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    font-size: 50px;
+    border-bottom: 2px solid #FF6633;
+    width: 100%;
+}
+.right_title span {
+    font-size: 28px;
+    padding-left: 20px;
+}
+.right_comment {
+    position: absolute;
+    left: 60px;
+    top: 180px;
+    font-size: 25px;
+    line-height: 150%;
+    padding-right: 10px;
+}
+.right_rank {
+    position: absolute;
+    top: 348px;
+    left: 290px;
+    font-size: 36px;
+}
+.right_img {
+    position: absolute;
+    left: 73px;
+    bottom: 0px;
+}
+.right_rank table td {
+    padding: 6px;
+}
+
+img#qr {
+    left: 10px !important;
+    bottom: 10px !important;
+}
